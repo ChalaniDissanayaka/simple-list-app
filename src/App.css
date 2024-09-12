@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  margin: 20px;
+  margin: 30px;
 }
 
 input {
@@ -23,6 +23,7 @@ button {
 ul {
   list-style-type: none;
   padding: 0;
+  margin-top: 50px;
   
 }
 
@@ -43,7 +44,7 @@ li {
 /* Align buttons on the right side with a 5px gap between them */
 li .button-group {
   display: flex;
-  gap: 5px; /* Ensure a 5px gap between buttons */
+  gap: 1px; /* Ensure a 5px gap between buttons */
 }
 
 li button {
