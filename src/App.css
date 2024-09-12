@@ -1,38 +1,54 @@
 .App {
   text-align: center;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  padding: 8px;
+  margin-right: 8px;
+  font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  margin-left: 8px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(244, 194, 101);
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+li {
+  margin: 10px auto; /* Center the li */
+  padding: 10px; /* Add padding inside the li */
+  font-size: 18px;
+  border: 1px solid #ccc; /* Add border to list items */
+  max-width: 500px; /* Set max width of 500px */
+  width: 100%; /* Ensure the li takes full width */
+  background-color: #f9f9f9; /* Optional: Light background for better visibility */
+
+  display: flex; /* Use flexbox to align items */
+  justify-content: space-between; /* Space between text and button */
+  
+}
+
+/* Align buttons on the right side with a 5px gap between them */
+li .button-group {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 5px; /* Ensure a 5px gap between buttons */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li button {
+  margin-left: 15px;
+  padding: 8px 12px;
+  font-weight: bold;
+  background-color: rgb(244, 161, 98);
 }
